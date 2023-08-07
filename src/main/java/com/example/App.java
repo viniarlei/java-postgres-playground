@@ -9,9 +9,16 @@ public class App {
     private static final String USERNAME = "gitpod";
     private static final String JDBC_URL = "jdbc:postgresql://localhost/postgres";
 
-    
     public static void main(String[] args) {
         new App();
+
+        System.out.println();
+        System.out.println();
+
+        // tipo nomeDaVariavel;
+        int idade = 10;
+        double peso = 80.5;
+        System.out.println("Idade é "+ idade + " Peso é " + peso);
     }
 
     public App(){
